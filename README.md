@@ -9,8 +9,8 @@ I am looking to get some feedback on my home built framework.  The framework was
 
 The project goals were to build a light weight framework that had the essential framework components:
 
-1) MVC directory structure
-2) Routing
+1) MVC directory structure<br>
+2) Routing<br>
 3) Caching
 
 A couple things I know I missed on: offering custom routing and ORM support.  Please take the time to browse through the code, try and get it set up in your dev environment, and give me some feedback:
