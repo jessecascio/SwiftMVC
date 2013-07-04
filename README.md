@@ -14,13 +14,13 @@ The project goals were to build a light weight framework that had the essential 
 
 A couple things I know I missed on: offering custom routing and ORM support.  Please take the time to browse through the code, try and get it set up in your dev environment, and give me some feedback:
 
-1) Was I able to encapsulate the minimum functionality for a MVC framework?
-2) Was the code easy to follow, and set up in a logical manner?
+1) Was I able to encapsulate the minimum functionality for a MVC framework?<br>
+2) Was the code easy to follow, and set up in a logical manner?<br>
 3) What are some key framework concepts I missed?  Some that I used well?
 
 Any feedback would be greatly appreciated.
 
-NOTES on setting up:
+<strong>NOTES on setting up:</strong>
 
 You must be running PHP 5.3 or greater
 
