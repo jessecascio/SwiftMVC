@@ -1,9 +1,8 @@
 SwiftMVC
 ========
 
-Currently my portfolio site is using SwiftMVC: http://pristinemarketing.com/
-
-Please email any feedback to: jessecascio@gmail.com
+<strong>Currently my portfolio site is using SwiftMVC: http://pristinemarketing.com/<br>
+Please email any feedback to: jessecascio@gmail.com</strong>
 
 I am looking to get some feedback on my home built framework.  The framework was modeled after Zend Framework 1; it has the same URL routing structure, controller/action/var/value, it uses the same directory structure, and it uses the View object in a similar fashion in the controllers.  
 
