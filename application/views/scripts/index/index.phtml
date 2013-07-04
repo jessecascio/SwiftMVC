@@ -1,0 +1,23 @@
+<?php
+/**
+ * This is an example view file.  You can emebed php directly into the page.  
+ * Enable short tags to use <?=, Common functionality:
+ *    $this->varName      - recieve vars from the controller
+ */
+ ?>
+
+<b>This is the default index view</b>
+
+<br><br>
+
+<?php
+	if (isset($this->myVar)) :
+?>
+	<b>Your Var:</b> <?php echo $this->myVar; ?>
+<?php
+	endif;
+?>
+
+<!-- place holder for ajax response html -->
+
+<span id="ajax_response"></span>

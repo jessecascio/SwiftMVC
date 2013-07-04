@@ -1,0 +1,31 @@
+SetEnv APPLICATION_ENV development
+
+<IfModule mod_expires.c>
+	Header set Cache-Control "max-age=1200, public"
+
+	ExpiresActive On
+	ExpiresDefault "access plus 20 minutes"
+	ExpiresByType image/gif "access plus 1 week"
+	ExpiresByType image/png "access plus 1 week"
+	ExpiresByType image/jpeg "access plus 1 week"
+	ExpiresByType image/pjpeg "access plus 1 week"
+	ExpiresByType text/javascript "access plus 20 minutes"
+	ExpiresByType application/javascript "access plus 20 minutes"
+	ExpiresByType text/css "access plus 20 minutes"
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} ^PUT$ [OR]
+RewriteCond %{REQUEST_METHOD} ^MOVE$
+RewriteRule ^/public/(.*)\.php /public/$1.nophp [L]
+
+RewriteRule ^.*$ index.php [NC,L]
+
+
+

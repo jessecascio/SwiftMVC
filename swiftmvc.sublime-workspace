@@ -1,0 +1,212 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str_re",
+				"str_replace"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.php",
+			"settings":
+			{
+				"buffer_size": 4287,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/swiftmvc/application/configs/config.ini",
+		"/var/www/html/swiftmvc/libraries/core/Router.php",
+		"/var/www/html/swiftmvc/application/controllers/IndexController.php",
+		"/var/www/html/swiftmvc/application/controllers/SampleController.php",
+		"/var/www/html/swiftmvc/application/layouts/layout.phtml",
+		"/var/www/html/swiftmvc/libraries/core/Cache.php",
+		"/var/www/html/swiftmvc/libraries/core/Controller.php",
+		"/var/www/html/swiftmvc/libraries/core/Request.php",
+		"/var/www/html/swiftmvc/libraries/core/View.php",
+		"/var/www/html/swiftmvc/libraries/exceptions/DbException.php",
+		"/var/www/html/swiftmvc/libraries/exceptions/LogException.php",
+		"/var/www/html/swiftmvc/libraries/exceptions/RequestException.php",
+		"/var/www/html/swiftmvc/libraries/exceptions/RouteException.php",
+		"/var/www/html/swiftmvc/libraries/exceptions/SwiftException.php",
+		"/var/www/html/swiftmvc/libraries/exceptions/ViewException.php",
+		"/var/www/html/swiftmvc/libraries/utilities/Config.php",
+		"/var/www/html/swiftmvc/libraries/utilities/Log.php",
+		"/var/www/html/swiftmvc/libraries/utilities/Scrubber.php",
+		"/var/www/html/swiftmvc/libraries/utilities/Uri.php",
+		"/var/www/html/swiftmvc/libraries/utilities/Db.php",
+		"/var/www/html/swiftmvc/application/Swift.php",
+		"/var/www/html/swiftmvc/libraries/core/RequestCache.php",
+		"/var/www/html/swiftmvc/application/configs/routes.ini",
+		"/var/www/html/swiftmvc/application/logs/sql_log.log",
+		"/home/jesse/Desktop/Sublime Text 2/sublime_text",
+		"/var/www/html/swiftmvc/public/index.php",
+		"/home/jesse/Documents/SwiftMVC/public/index.php",
+		"/home/jesse/Documents/SwiftMVC/application/Swift.php",
+		"/home/jesse/Documents/SwiftMVC/application/views/scripts/index/index.phtml",
+		"/home/jesse/Downloads/Sublime Text 2/sublime_text",
+		"/home/jesse/Documents/SwiftMVC/libraries/exceptions/SwiftException.php",
+		"/home/jesse/Documents/SwiftMVC/libraries/utilities/Db.php",
+		"/home/jesse/Documents/SwiftMVC/libraries/utilities/Log.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PristineMarketing",
+			"_cache_log",
+			"Casciod",
+			"pdoe",
+			"pdo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"jessesnet"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.php",
+					"settings":
+					{
+						"buffer_size": 4287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1062,
+								1062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

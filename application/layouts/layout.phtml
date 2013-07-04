@@ -1,0 +1,64 @@
+<?php
+/**
+ * This is the layout file for the application.  The view is injected into the layout which is included
+ * in the View object.  This give the layout access to all the View methods and properties.  Common uses:
+ *
+ *    $this->_content     - this is the content of the view file
+ *    $this->_headScripts - full include path of all scripts to be include in the file
+ *
+ * @author     Jesse Cascio
+ * @package    SwiftMVC
+ * @subpackage application  
+ * @copyright  jessesnet.com
+ * @version    1.0
+ * @link       
+ * @todo       Allow for CSS to be appended to the head i.e. $this->_styleSheets()
+ */
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>Swift Default layout</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<base href="<?= BASE_URL ?>" />
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+	<!-- JS -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<div style="width:100%;background-color:green;color:white;text-align:center;padding:5px 0px;">  
+	    <div style="display:inline-block">Welcome to SWIFT MVC</div>
+	</div>
+
+	<div style="padding-left:60px;border:1px solid black;width:200px">
+		<span id='ajax' style="cursor:pointer;">Click for Sample Ajax call</span>
+	</div>
+	
+	<br /><br />
+
+	<?php echo $this->content ?>
+
+	<!-- include .js files last for page loading -->
+	<?php echo $this->_headScripts(); ?> 
+
+	<br /><br />
+
+	<img src="images/zce.png" />
+	<img src="images/mark.png" style="padding-left:20px" />
+
+</body>
+
+</html>
