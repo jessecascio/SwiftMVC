@@ -1,6 +1,8 @@
 SwiftMVC
 ========
 
+<strong>Please note this was designed as purely an exercise in getting to understand how frameworks work</strong>
+<br><br>
 <strong>Currently my portfolio site is using SwiftMVC: http://pristinemarketing.com/<br>
 Please email any feedback to: jessecascio@gmail.com</strong>
 
