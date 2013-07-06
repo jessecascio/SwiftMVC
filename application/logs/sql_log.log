@@ -1,8 +1,0 @@
-2013-07-04 10:30:19 - DB ERROR ('/var/www/html/swiftmvc/application/Swift.php', #81) : Unable to connect to database: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
-
-2013-07-04 10:30:59 - DB ERROR ('/var/www/html/swiftmvc/application/Swift.php', #81) : Unable to connect to database: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
-
-2013-07-04 10:31:11 - DB ERROR ('/var/www/html/swiftmvc/application/Swift.php', #81) : Unable to connect to database: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
-
-2013-07-04 10:32:05 - DB ERROR ('/var/www/html/swiftmvc/application/Swift.php', #81) : Unable to connect to database: SQLSTATE[42000] [1049] Unknown database 'test'
-
